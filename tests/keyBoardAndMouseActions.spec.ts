@@ -38,13 +38,12 @@ test.only("mouse actions: drag and drop",async({page})=>{
     const childBox=page.locator("#draggable");
     const parentBox=page.locator("#droppable");
     //Approach1
-    //await childBox.dragTo(parentBox);
+    await childBox.dragTo(parentBox);
 
     //Approach2
-    await childBox.hover();
+    /*await childBox.hover();
     await page.mouse.down();
     await parentBox.hover();
     await page.mouse.up();
-    await page.waitForTimeout(5000);
-
+    await page.waitForTimeout(5000);*/
 })
