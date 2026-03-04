@@ -1,0 +1,46 @@
+[
+    {
+    "firstname" : "Jim tim",
+    "lastname" : "Brown green",
+    "totalprice" : 1117,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2018-01-01",
+        "checkout" : "2019-01-01"
+    },
+    "additionalneeds" : "snacks"
+    },
+    {
+    "firstname" : "John",
+    "lastname" : "Smith",
+    "totalprice" : 2222,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2020-01-01",
+        "checkout" : "2021-01-01"
+    },
+    "additionalneeds" : "Breakfast"
+    },
+    {
+    "firstname" : "Alice",
+    "lastname" : "Johnson",
+    "totalprice" : 3333,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2022-01-01",
+        "checkout" : "2023-01-01"
+    },
+    "additionalneeds" : "Lunch"
+    },
+    {
+    "firstname" : "Bob",
+    "lastname" : "Williams",
+    "totalprice" : 4444,
+    "depositpaid" : false,
+    "bookingdates" : {
+        "checkin" : "2024-01-01",
+        "checkout" : "2025-01-01"
+    },
+    "additionalneeds" : "Dinner"
+    }
+]
